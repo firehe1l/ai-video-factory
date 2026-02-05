@@ -11,9 +11,9 @@ const HeroSection = () => {
       {/* Decorative elements */}
       <div className="absolute top-20 left-10 w-72 h-72 bg-primary/10 rounded-full blur-3xl animate-pulse-glow" />
       <div className="absolute bottom-20 right-10 w-96 h-96 bg-primary/5 rounded-full blur-3xl" />
-      
+
       {/* Grid pattern overlay */}
-      <div 
+      <div
         className="absolute inset-0 opacity-[0.03]"
         style={{
           backgroundImage: `linear-gradient(hsl(var(--foreground)) 1px, transparent 1px),
@@ -47,7 +47,7 @@ const HeroSection = () => {
 
           {/* CTA Button */}
           <div className="animate-fade-in-delay-2">
-            <Button 
+            <Button
               onClick={scrollToSpec}
               size="lg"
               className="group relative px-8 py-6 text-base font-semibold gradient-emerald glow-emerald hover:scale-105 transition-all duration-300"
@@ -68,8 +68,8 @@ const HeroSection = () => {
               <div className="text-sm text-muted-foreground mt-1">языков</div>
             </div>
             <div className="text-center">
-              <div className="text-2xl md:text-3xl font-bold text-gradient">0</div>
-              <div className="text-sm text-muted-foreground mt-1">операторов</div>
+              <div className="text-2xl md:text-3xl font-bold text-gradient">1</div>
+              <div className="text-sm text-muted-foreground mt-1">оператор</div>
             </div>
           </div>
         </div>
